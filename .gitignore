@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+# Personal face data and generated encodings - keep local
+Face_Recognition_Based_Eye_Control-Mouse_Cursor/dataset/*
+!Face_Recognition_Based_Eye_Control-Mouse_Cursor/dataset/.gitkeep
+Face_Recognition_Based_Eye_Control-Mouse_Cursor/face_enc
+# Large dlib model - download separately
+*.dat
+*.dat.bz2
